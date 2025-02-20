@@ -9,12 +9,15 @@ console.log('Tipo var:', numero);
 
 numero = 13;
 
-console.log(texto + " o número agora é " + numero)
+console.log(texto + "o número agora é" + numero)
+console.log(texto, "o número agora é", numero)
+console.log(`${texto} o número agora é ${numero}`)
 
 texto = 69
 
 console.log(texto + numero)
-// concatenar com + dois valores numericos vai acabar somando
+// concatenar com + dois valores numericos vai 
+//acabar somando 
 
 // console.log(oQueEisso)
 
